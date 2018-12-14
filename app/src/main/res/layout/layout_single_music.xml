@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:layout_margin="1.5dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/item_single_music_index_head_height"
+        android:orientation="vertical"
+        android:background="@color/bg_common">
+        <TextView
+            android:visibility="gone"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:layout_marginStart="8dp"
+            android:id="@+id/index_head_tv"
+            android:gravity="center_vertical"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/item_single_music_main_height"
+        android:orientation="horizontal"
+        android:id="@+id/single_music_item_ll">
+        <RelativeLayout
+            android:layout_width="36dp"
+            android:layout_height="@dimen/item_single_music_main_height">
+            <TextView
+                android:textSize="14sp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/local_index"
+                android:gravity="center" />
+        </RelativeLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center">
+            <TextView
+                android:maxLines="1"
+                android:ellipsize="end"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:id="@+id/local_music_name"
+                android:layout_gravity="top"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="4dp"/>
+            <TextView
+                android:maxLines="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:id="@+id/local_music_singer"
+                android:layout_gravity="bottom"/>
+        </LinearLayout>
+        <ImageView
+            android:layout_marginEnd="20dp"
+            android:layout_width="@dimen/item_single_music_main_height"
+            android:layout_height="@dimen/item_single_music_main_height"
+            android:padding="14dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:src="@drawable/more_black"
+            android:id="@+id/single_music_menu"/>
+    </LinearLayout>
+</LinearLayout>

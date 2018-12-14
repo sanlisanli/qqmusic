@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/local_music_scan"
+        app:showAsAction="always"
+        android:icon="@drawable/scan_white"
+        android:title="扫描本地音乐"/>
+</menu>

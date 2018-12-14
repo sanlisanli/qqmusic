@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">music</string>
+    <string name="music_none_text">歌曲列表为空，点击扫描本地歌曲</string>
+    <string name="sixty_second_ignore">不扫描60秒以下的歌曲</string>
+</resources>

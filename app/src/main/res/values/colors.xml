@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#69f0ae</color>
+    <color name="colorPrimaryDark">#69f0ae</color>
+    <color name="colorAccent">#69f0ae</color>
+    <color name="toolbar_bg">#69f0ae</color>
+    <color name="colorDividerGray">#50CACACA</color>
+    <color name="bg_play_bar">#e0e0e0</color>
+    <color name="accent_text">@android:color/white</color>
+    <color name="common_text">#424242</color>
+    <color name="bg_common">#e0e0e0</color>
+    <color name="bg_divider">#bdbdbd</color>
+</resources>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="6dp"/>
+    <LinearLayout
+        android:id="@+id/home_local_music_ll"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/home_local_music_iv"
+            android:padding="12dp"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/local_music" />
+        <TextView
+            android:id="@+id/home_local_music_tv"
+            android:layout_width="0dp"
+            android:textSize="14sp"
+            android:gravity="center_vertical"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:text="本地音乐" />
+
+        <TextView
+            android:id="@+id/home_local_music_count_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:padding="4dp"
+            android:gravity="center"
+            android:textSize="14sp"
+            android:text="0"
+            tools:text="6"/>
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:padding="12dp"
+            android:src="@drawable/enter_black" />
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@drawable/divider"/>
+    <LinearLayout
+        android:id="@+id/home_recent_music_ll"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/home_recent_music_iv"
+            android:padding="12dp"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/recent_music" />
+        <TextView
+            android:id="@+id/home_recent_music_tv"
+            android:layout_width="0dp"
+            android:textSize="14sp"
+            android:gravity="center_vertical"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:text="最近音乐" />
+
+        <TextView
+            android:id="@+id/home_recent_music_count_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:padding="4dp"
+            android:text="0"
+            android:textSize="14sp"
+            tools:text="6"/>
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:padding="12dp"
+            android:src="@drawable/enter_black" />
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@drawable/divider"/>
+    <LinearLayout
+        android:id="@+id/home_favor_music_ll"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/home_favor_music_iv"
+            android:padding="12dp"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/favor_music" />
+        <TextView
+            android:id="@+id/home_favor_music_tv"
+            android:layout_width="0dp"
+            android:textSize="14sp"
+            android:gravity="center_vertical"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:text="收藏音乐" />
+
+        <TextView
+            android:id="@+id/home_favor_music_count_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:padding="4dp"
+            android:text="0"
+            android:textSize="14sp"
+            tools:text="6"/>
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:padding="12dp"
+            android:src="@drawable/enter_black" />
+    </LinearLayout>
+
+</LinearLayout>

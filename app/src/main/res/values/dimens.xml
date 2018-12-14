@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="toolbar_include_height">50dp</dimen>
+    <dimen name="play_bar_height">60dp</dimen>
+    <dimen name="play_bar_main_height">55dp</dimen>
+    <dimen name="item_single_music_index_head_height">32dp</dimen>
+    <dimen name="item_single_music_main_height">52dp</dimen>
+    <dimen name="group_title_height">50dp</dimen>
+    <dimen name="play_icon_padding">2dp</dimen>
+</resources>
