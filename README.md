@@ -17,7 +17,7 @@ qqmusic
 <img src="https://github.com/sanlisanli/qqmusic/blob/master/imgs/02.jpg" width="260" height="480"/>   
   
  播放栏弹出的popupwindow，点击播放歌曲     
-<img src="https://github.com/sanlisanli/servicedemo/blob/master/imgs/03.jpg" width="260" height="480"/>   
+<img src="https://github.com/sanlisanli/qqmusic/blob/master/imgs/03.jpg" width="260" height="480"/> 
    
  popupwindow    
 <img src="https://github.com/sanlisanli/qqmusic/blob/master/imgs/04.jpg" width="260" height="480"/>  
